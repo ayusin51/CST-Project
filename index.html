@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Footer-with-map.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Tangerine|Roboto|Satisfy" rel="stylesheet">
+    <style type="text/css">
+       
+        #menu_catering
+        {
+            background-image: url(pics/catering-btn.png);
+            background-size: contain;
+            height:49vh;
+            width: 51vh;
+            background-repeat: no-repeat;
+        }
+        #menu_lunch
+        {
+            background-image: url(pics/lunch-btn.png);
+            background-size: contain;
+            height:49vh;
+            width: 51vh;
+            background-repeat: no-repeat;
+        }
+        #menu_dinner
+        {
+            background-image: url(pics/dinner-btn.png);
+            background-size: contain;
+            height:49vh;
+            width: 50vh;
+            background-repeat: no-repeat;
+        }
+        .menu
+        {
+            height: 90%;
+            width: 90%;
+            border: 0px;
+            -webkit-transition: all 0.4s; 
+            -moz-transition: all 0.4s; 
+            transition: all 0.4s;
+            font-family: 'Dancing Script', cursive;
+            font-size: 5vh;
+        }
+        .menu:hover
+        {
+            
+            position: absolute;
+            transform: scale(1.2);
+        }
+        
+        .menu_div
+        {
+            background-color: white;
+            width: 100%;
+            height: 30%;
+            margin-top: 35%;
+            text-align: center;
+            border-radius: 50%;
+            -webkit-transition: all 0.4s; 
+            -moz-transition: all 0.4s; 
+            transition: all 01s;
+        }
+        
+        .menu_div:hover
+        {
+            opacity: .5;
+        }
+        a
+        {
+            color:goldenrod;
+        }
+        a:hover
+        {
+            text-decoration: none;
+            color:goldenrod;
+        }
+    </style>
+
+  </head>
+  <body>
+   
+    <br><br><br><span id="home"></span>
+      <h1 style="text-align:center; font-family: 'Tangerine', cursive; font-size:10vh; font-weight:600;" >Restaurant & Bar</h1>
+     <img src="pics/flourish.png" style="margin-left:40vw;margin-right:40vw;"><br>
+     
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="pics/artichoke-slide.jpg" alt="hotel" style="height:90%; width:100%">
+              
+            </div>
+
+            <div class="item">
+              <img src="pics/fish-slide.jpg" alt="hotel" style="height:90%; width:100%">
+              
+            </div>
+            <div class="item">
+              <img src="pics/interior-slide-16-9.jpg" alt="hotel" style="height:90%; width:100%">
+              
+            </div>
+            
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      <hr ><span id="menu11"></span>
+    
+       <div class="container">
+           <div class="row" style="margin-top:60px;">
+             <h1 style="text-align:center; font-family: 'Tangerine', cursive; font-size:8vh;  
+              font-weight:600;" >Menu</h1>
+               <img src="pics/flourish.png" style="margin-left:40vw; margin-bottom:20px;"><br>
+              <center>
+               
+            	<br><div class="col-md-4">
+            	<a href="#" class="thumbnail menu" id="menu_lunch">
+      				<div class="menu_div" data-toggle="modal" data-target="#myModal1">Starter</div>
+   				</a>
+                </div>
+                <div class="col-md-4">
+            	<a href="#" class="thumbnail menu" id="menu_dinner">
+      				<div class="menu_div" data-toggle="modal" data-target="#myModal2">Main-Course</div>
+   				</a>
+                </div>
+                <div class="col-md-4">
+            	<a href="#" class="thumbnail menu" id="menu_catering">
+      				<div class="menu_div" data-toggle="modal" data-target="#myModal3">Dessert</div>
+   				</a>
+                </div>
+               </center>
+           </div><span id='about11'></span><hr >
+        <div class="row" style="margin-top:60px;">
+           <h1 style="text-align:center; font-family: 'Tangerine', cursive;font-size:8vh;  font-weight:600; ">About Us</h1>
+               <img src="pics/flourish.png" style="margin-left:40vw; margin-bottom:20px;"><br><br>
+            <div class="col-md-6">
+                <h1 style="text-align:center; font-family: 'Satisfy', cursive;">Chef & Owner</h1><hr>
+                <center><h3 style="font-family:'Tangerine', cursive;font-size:6vh;">
+                    <strong>Sanjeev Kapoor </strong>is an Indian celebrity chef,<br> entrepreneur writer and television personality.<br> Kapoor stars in the TV show Khana Khazana,<br> which is the longest running show of its kind in Asia.<br>It broadcasts in 120 countries and<br> in 2010 had more than 500 million viewers.<br>He also launched his own Food Food channel,<br> in January 2011.<br> Discovery Communications through its Indian organization,<br> has acquired a majority stake in Kapoor's channel.<br> He was also a contestant on Jhalak Dikhhla Jaa.
+                    </h3></center>
+            </div>
+            <div class="col-md-6">
+                <img src="pics/chef-home.jpg" alt="chef" style="border-radius:10%;" height="100%" width="100%">
+            </div>
+        </div>
+       </div> <br><br><br><br>
+       <!--Footer-->
+         <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="mailto:ayushsingla51@gmail.com">Ayush Singla</a> : 9478332010</li>
+                        <li><a href="mailto:ashusingla884@gmail.com">Ashu Singla</a> : 7814354420</li>
+                        <li><a href="mailto:ashmittal60@gmail.com">Ashwani</a> : 9888473043</li>
+                        <li><a href="mailto:ashironaldo7@gmail.com">Arshpreet</a> : 8194874948</li>
+                    </ul>
+                </div>
+            </div>
+         
+            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+            
+        </div>
+        <div class="social-networks">
+            <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="mailto:ayushsingla51@gmail.com" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
+    </footer>
+        <!--/Footer-->  
+        <nav class="navbar navbar-default" role="navigation" style="position:fixed;width:100%; ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="pics/logo-header.png" height="60px; width:100px;"></a>
+      </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              
+              
+              
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                        <!-- Button trigger modal -->
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+              <li><a href="index.html#menu11"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
+              <li><a href="index.html#about11"><span class="glyphicon glyphicon-exclamation-sign"></span> About Us</a></li>
+                <li style="margin:8px 16px 0px 0px;"><button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#myModal">
+                  <span class="glyphicon glyphicon-earphone"></span> Contact Us
+                </button></li>
+              </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </nav>
+          
+    <!-- Modal -->
+       
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="text-align:center; font-family: 'Tangerine', cursive; font-size:10vh;">Starter's Menu</h4>
+              </div>
+              <div class="modal-body">
+                  <h2 style="font-family:'Dancing Script', cursive;">Appetizer Trays</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+                  <h2 style="font-family:'Dancing Script', cursive;">Appetizer Trays</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+                   <h2 style="font-family:'Dancing Script', cursive;">Appetizer Trays</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="text-align:center; font-family: 'Tangerine', cursive; font-size:10vh;">Main-Course's Menu</h4>
+              </div>
+              <div class="modal-body">
+                  <h2 style="font-family:'Dancing Script', cursive;">Grilled Sandwiches</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+                  <h2 style="font-family:'Dancing Script', cursive;">California BLT</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+                   <h2 style="font-family:'Dancing Script', cursive;">Appetizer Trays</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="text-align:center; font-family: 'Tangerine', cursive; font-size:10vh;">Dessert's Menu</h4>
+              </div>
+              <div class="modal-body">
+                  <h2 style="font-family:'Dancing Script', cursive;">Fried Calamari</h2><br>
+                      <h3>Delicious, tender, crispy, & crunchy calamari<br> served with mild or hot marinara sauce for dipping 10<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+                  <h2 style="font-family:'Dancing Script', cursive;">Crab-Stuffed Jalapeño Popper</h2><br>
+                      <h3>Fresh jalapeno peppers stuffed with lump crab meat<br> & cheese, wrapped in bacon & smoked.<br> Glazed with a tangy homemade BBQ sauce 12<br>
+                      </h3>
+                   <h2 style="font-family:'Dancing Script', cursive;">Appetizer Trays</h2><br>
+                      <h3>Tomato & Fresh Mozzarella tray (summer only) 75.00<br>
+                          Grilled vegetable tray 65.00<br>
+                          Cheese and fruit tray with crackers 70.00<br>
+                      </h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal for contact-->
+
+     <form >
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+                  </div>
+                  <div class="modal-body">
+                   
+                     <div class="row">
+                    	<div class="col-md-8 col-md-offset-2">
+                        	<div class="form-group">
+                            	<label for="exampleInputEmail1">Name</label>
+                                <input type="text" required  class="form-control"  name="txtUid" id="exampleInputEmail1" placeholder="Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-8 col-md-offset-2">
+                        	<div class="form-group">
+                            	<label for="mob" style="float:left">Mobile</label>
+                                <input type="number" required id="mob" class="form-control" placeholder="Mobile No.">
+                            </div>
+                        </div>
+                    </div>
+                    
+                   <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                        	<div class="form-group">
+                            	<label for="mail" style="float:left">E-mail</label>
+                                <input type="email" required id="mail" class="form-control" placeholder="E-Mail">
+                            </div>
+                        </div>
+                   </div> 
+                   <div class="row">
+                       <div class="col-md-8 col-md-offset-2" style="text-align:center; font-family: 'Satisfy', cursive; font-size:3vh">We will contact you soon...
+                   </div><br>
+                    
+              </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-warning">Done</button>
+                  </div>
+                </div>
+              </div>
+              </form>     
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
