@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap 101 Template</title>
+    <title>Welcome to Hotel Diamond Inn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    
+
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/Footer-with-map.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Tangerine|Roboto|Satisfy" rel="stylesheet">
     <style type="text/css">
-       
+
+        #top-heading {
+          text-align:center;
+          font-family: 'Tangerine', cursive;
+          font-size:10vh;
+          font-weight:600;
+          margin-top: 30px;
+        }
+
         #menu_catering
         {
             background-image: url(pics/catering-btn.png);
@@ -40,19 +49,19 @@
             height: 90%;
             width: 90%;
             border: 0px;
-            -webkit-transition: all 0.4s; 
-            -moz-transition: all 0.4s; 
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
             transition: all 0.4s;
             font-family: 'Dancing Script', cursive;
             font-size: 5vh;
         }
         .menu:hover
         {
-            
+
             position: absolute;
             transform: scale(1.2);
         }
-        
+
         .menu_div
         {
             background-color: white;
@@ -61,33 +70,55 @@
             margin-top: 35%;
             text-align: center;
             border-radius: 50%;
-            -webkit-transition: all 0.4s; 
-            -moz-transition: all 0.4s; 
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
             transition: all 01s;
         }
-        
+
         .menu_div:hover
         {
             opacity: .5;
         }
+
         a
         {
             color:goldenrod;
         }
+
         a:hover
         {
             text-decoration: none;
             color:goldenrod;
         }
+
+        .icon {
+          margin: 10px;
+        }
+
+        .shadow-box {
+          box-shadow: 15px 15px 15px gray;
+        }
+
+        #logo {
+          height: 50px;
+          width: 200px;
+          margin: -15px 0px 0px;
+        }
+
+        .navbar-brand {
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-top: 10px;
+        }
     </style>
 
   </head>
   <body>
-   
+
     <br><br><br><span id="home"></span>
-      <h1 style="text-align:center; font-family: 'Tangerine', cursive; font-size:10vh; font-weight:600;" >Restaurant & Bar</h1>
+      <h1 id="top-heading" >Restaurant & Bar</h1>
      <img src="pics/flourish.png" style="margin-left:40vw;margin-right:40vw;"><br>
-     
+
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -99,19 +130,19 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="pics/artichoke-slide.jpg" alt="hotel" style="height:90%; width:100%">
-              
+              <img src="pics/artichoke-slide.jpg"alt="hotel" style="height:90%; width:100%">
+
             </div>
 
-            <div class="item">
+            <div class="item"  class=" shadow-box">
               <img src="pics/fish-slide.jpg" alt="hotel" style="height:90%; width:100%">
-              
+
             </div>
             <div class="item">
-              <img src="pics/interior-slide-16-9.jpg" alt="hotel" style="height:90%; width:100%">
-              
+              <img src="pics/interior-slide-16-9.jpg"  alt="hotel" style="height:90%; width:100%">
+
             </div>
-            
+
           </div>
 
           <!-- Controls -->
@@ -125,14 +156,14 @@
           </a>
         </div>
       <hr ><span id="menu11"></span>
-    
+
        <div class="container">
            <div class="row" style="margin-top:60px;">
-             <h1 style="text-align:center; font-family: 'Tangerine', cursive; font-size:8vh;  
+             <h1 style="text-align:center; font-family: 'Tangerine', cursive; font-size:8vh;
               font-weight:600;" >Menu</h1>
                <img src="pics/flourish.png" style="margin-left:40vw; margin-bottom:20px;"><br>
               <center>
-               
+
             	<br><div class="col-md-4">
             	<a href="#" class="thumbnail menu" id="menu_lunch">
       				<div class="menu_div" data-toggle="modal" data-target="#myModal1">Starter</div>
@@ -160,7 +191,7 @@
                     </h3></center>
             </div>
             <div class="col-md-6">
-                <img src="pics/chef-home.jpg" alt="chef" style="border-radius:10%;" height="100%" width="100%">
+                <img src="pics/chef-home.jpg" class=" shadow-box" alt="chef" style="border-radius:10%;" height="100%" width="100%">
             </div>
         </div>
        </div> <br><br><br><br>
@@ -196,26 +227,23 @@
                     <h5>Contact</h5>
                     <ul>
                         <li><a href="mailto:ayushsingla51@gmail.com">Ayush Singla</a> : 9478332010</li>
-                        <li><a href="mailto:ashusingla884@gmail.com">Ashu Singla</a> : 7814354420</li>
-                        <li><a href="mailto:ashmittal60@gmail.com">Ashwani</a> : 9888473043</li>
-                        <li><a href="mailto:ashironaldo7@gmail.com">Arshpreet</a> : 8194874948</li>
                     </ul>
                 </div>
             </div>
-         
+
             <!-- In order for this to work in your project you will need to generate a unique API key.  -->
-            
+
         </div>
         <div class="social-networks">
-            <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="mailto:ayushsingla51@gmail.com" class="google"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.twitter.com" class="icon"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="https://www.facebook.com/" class="icon"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="mailto:ayushsingla51@gmail.com" class="icon"><i class="fab fa-google-plus fa-3x"></i></a>
         </div>
         <div class="footer-copyright">
             <p>© 2016 Copyright Text </p>
         </div>
     </footer>
-        <!--/Footer-->  
+        <!--/Footer-->
         <nav class="navbar navbar-default" role="navigation" style="position:fixed;width:100%; ">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -225,23 +253,23 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="pics/logo-header.png" height="60px; width:100px;"></a>
+        <a class="navbar-brand shadow-box"  href="#"><img src="pics/logo-header.png" id="logo"></a>
       </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              
-              
-              
+
+
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
 
                         <!-- Button trigger modal -->
-                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-              <li><a href="index.html#menu11"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
-              <li><a href="index.html#about11"><span class="glyphicon glyphicon-exclamation-sign"></span> About Us</a></li>
+                <li class="active"><a href=""><span class="glyphicon glyphicon-home"></span></a></li>
+              <li><a href="#menu11"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
+              <li><a href="#about11"><span class="glyphicon glyphicon-exclamation-sign"></span> About Us</a></li>
                 <li style="margin:8px 16px 0px 0px;"><button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#myModal">
                   <span class="glyphicon glyphicon-earphone"></span> Contact Us
                 </button></li>
@@ -249,9 +277,9 @@
 
           </div><!-- /.navbar-collapse -->
         </nav>
-          
+
     <!-- Modal -->
-       
+
         <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -352,7 +380,7 @@
                     <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
                   </div>
                   <div class="modal-body">
-                   
+
                      <div class="row">
                     	<div class="col-md-8 col-md-offset-2">
                         	<div class="form-group">
@@ -369,7 +397,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                    <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                         	<div class="form-group">
@@ -377,11 +405,11 @@
                                 <input type="email" required id="mail" class="form-control" placeholder="E-Mail">
                             </div>
                         </div>
-                   </div> 
+                   </div>
                    <div class="row">
                        <div class="col-md-8 col-md-offset-2" style="text-align:center; font-family: 'Satisfy', cursive; font-size:3vh">We will contact you soon...
                    </div><br>
-                    
+
               </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
@@ -389,9 +417,40 @@
                   </div>
                 </div>
               </div>
-              </form>     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
+              </form>
+
+
+              <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+       <script>
+         $(document).ready(function(){
+           // Add smooth scrolling to all links
+           $("a").on('click', function(event) {
+
+             // Make sure this.hash has a value before overriding default behavior
+             if (this.hash !== "") {
+               // Prevent default anchor click behavior
+               event.preventDefault();
+
+               // Store hash
+               var hash = this.hash;
+
+               // Using jQuery's animate() method to add smooth page scroll
+               // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+               $('html, body').animate({
+                 scrollTop: $(hash).offset().top
+               }, 600, function(){
+
+                 // Add hash (#) to URL when done scrolling (default click behavior)
+                 window.location.hash = hash;
+               });
+             } // End if
+           });
+         });
+         </script>
+
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
